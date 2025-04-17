@@ -1,0 +1,93 @@
+body {
+    position: relative;
+    background-color: #6D0B52;
+    max-width: 80em;
+    margin: auto;
+    padding: 0.5rem 1rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        "nav nav nav nav"
+        "header header header header"
+		"main main main main"
+		"aside1 aside1 aside2 aside2"
+        "footer footer footer footer";
+    row-gap: 2rem;
+    background-color: #59959E;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+nav {
+    grid-area: nav;
+    background-color: #003667;
+}
+
+nav p {
+    color: #FFF6F3;
+}
+
+header {
+    grid-area: header;
+    background-color: #003667;
+    padding: 2rem;
+}
+
+header h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "Inter";
+    color: #FFF6F3;
+
+}
+
+main {
+    grid-area: main;
+    background-color: #FFF6F3;
+}
+
+.aside1 {
+    grid-area: aside1;
+    background-color: #FFF6F3;
+}
+
+.aside2 {
+    grid-area: aside2;
+    background-color: #F89C76;
+}
+
+
+footer {
+    grid-area: footer;
+    background-color: #003667;
+}
+
+footer p {
+    color: #FFF6F3;
+}
+
+p {
+	padding: 0.5em 1em;
+}
+
+h2 {
+	padding: 0.5em 1em;
+}
+
+img.float-right {
+	float: right;
+}
+
+img.center {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
