@@ -16,8 +16,8 @@ body {
     grid-template-areas:
         "nav nav nav nav"
         "header header header header"
-		"main main main main"
-		"aside1 aside1 aside2 aside2"
+		    "main main main main"
+		    "aside1 aside1 aside2 aside2"
         "footer footer footer footer";
     row-gap: 2rem;
     background-color: #59959E;
@@ -45,7 +45,6 @@ header h1 {
     font-weight: 700;
     font-family: "Inter";
     color: #FFF6F3;
-
 }
 
 main {
@@ -62,7 +61,6 @@ main {
     grid-area: aside2;
     background-color: #F89C76;
 }
-
 
 footer {
     grid-area: footer;
