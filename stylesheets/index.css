@@ -30,8 +30,18 @@ nav {
     background-color: #003667;
 }
 
-nav p {
+li {
+    display: inline;
+    margin: 5em;
+}
+
+a { 
     color: #FFF6F3;
+    text-decoration: none; 
+}
+
+a:hover {
+  color: #59959E;
 }
 
 header {
