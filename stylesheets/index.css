@@ -16,12 +16,12 @@ body {
     grid-template-areas:
         "nav nav nav nav"
         "header header header header"
-		    "main main main main"
-		    "aside1 aside1 aside2 aside2"
-		    "aside3 aside3 aside3 aside3"
+		"main main main main"
+		"aside1 aside1 aside2 aside2"
+		"aside3 aside3 aside3 aside3"
         "footer footer footer footer";
     row-gap: 2rem;
-	  column-gap: 2rem;
+	column-gap: 2rem;
     background-color: #59959E;
     padding: 2rem;
     border-radius: 1rem;
@@ -108,6 +108,10 @@ img.float-right {
 	float: right;
 }
 
+img.float-left {
+	float: left;
+}
+
 img.center {
 	display: block;
   margin-left: auto;
@@ -160,7 +164,8 @@ ul {
 				}
 
         }
-
+		
+			
 
         /*SECOND BREAK POINT === mobile */
         @media only screen and (max-width : 600px) {
@@ -172,8 +177,8 @@ ul {
                     "header header header header"
                     "main main main main"
                     "aside1 aside1 aside1 aside1"
-					          "aside2 aside2 aside2 aside2"
-					          "aside3 aside3 aside3 aside3"
+					"aside2 aside2 aside2 aside2"
+					"aside3 aside3 aside3 aside3"
                     "footer footer footer footer";
                 row-gap: 2rem;
 				column-gap: 2rem;
