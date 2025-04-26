@@ -31,11 +31,32 @@ body {
 nav {
     grid-area: nav;
     background-color: #003667;
-	border-radius: 10px;
+    border-radius: 0.6rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 0.3rem 1.6rem;
 }
 
-nav p {
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li {
+    padding: 1.8rem 0.4rem;
+
+    list-style-type: none;
+}
+
+ul li a {
     color: #FFF6F3;
+    font-size: 1.2rem;
+    font-weight: normal;
+    text-decoration: none;
+	font-family: Roboto, Inter, sans-serif;
+}
+
+a:hover {
+    color: #EF8C63;
 }
 
 header {
@@ -48,9 +69,8 @@ header {
 header h1 {
     font-size: 2rem;
     font-weight: 700;
-    font-family: Inter;
-    color: #FFF6F3;
 	font-family: Roboto, Inter, sans-serif;
+    color: #FFF6F3;
 }
 
 main {
@@ -94,6 +114,12 @@ p {
 }
 
 h2 {
+	padding: 0.5em 1em;
+	font-family: Roboto, Inter, sans-serif;
+
+}
+
+h3 {
 	padding: 0.5em 1em;
 	font-family: Roboto, Inter, sans-serif;
 
