@@ -142,6 +142,30 @@ img.center {
     width: 75%;
 }
 
+.right img	{ 
+			max-width: 250px;
+			float: right;
+			padding: 0;
+			margin: 0.8rem 1rem;
+			border: 2px solid #190902;
+		}
+		
+.left img	{ 
+			max-width: 250px;
+			float: left;
+			padding: 0;
+			margin: 0.8rem 1rem;
+			border: 2px solid #190902;
+		}
+		
+.left {
+	overflow: auto;
+}
+
+.right {
+	overflow: auto;
+}
+
 ul li {
     list-style-type: none;
 }
@@ -182,6 +206,16 @@ ul {
         width: 75%;
         max-width: 400px;
     }
+	
+	    .right img {
+        width: 50%;
+		max-width: 250px;
+    }
+	
+	    .left img {
+        width: 50%;
+		max-width: 250px;
+    }
 
 }
 
@@ -219,6 +253,22 @@ ul {
         margin-left: auto;
         margin-right: auto;
         width: 75%;
+        min-width: 150px;
+    }
+	
+	    .right img {
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        min-width: 150px;
+    }
+	
+	    .left img {
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
         min-width: 150px;
     }
 
