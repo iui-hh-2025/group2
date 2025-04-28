@@ -142,6 +142,30 @@ img.center {
     width: 75%;
 }
 
+.right img	{ 
+			max-width: 250px;
+			float: right;
+			padding: 0;
+			margin: 0.8rem 1rem;
+			border: 2px solid #190902;
+		}
+		
+.left img	{ 
+			max-width: 250px;
+			float: left;
+			padding: 0;
+			margin: 0.8rem 1rem;
+			border: 2px solid #190902;
+		}
+		
+.left {
+	overflow: auto;
+}
+
+.right {
+	overflow: auto;
+}
+
 ul li {
     list-style-type: none;
 }
