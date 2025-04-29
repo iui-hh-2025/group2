@@ -40,10 +40,21 @@ ul {
     justify-content: space-between;
 }
 
+ul.bullet {
+	
+	display: block;
+}
+
 ul li {
     padding: 1.8rem 0.4rem;
 
     list-style-type: none;
+}
+
+ul.bullet li{	
+	list-style-type: disc;
+	list-style-position: outside;
+    padding: 0.4rem 1rem;
 }
 
 ul li a {
@@ -96,6 +107,11 @@ main {
     border-radius: 15px;
 }
 
+.bullet {
+	padding: 1rem;
+
+}
+
 footer {
     grid-area: footer;
     background-color: #003667;
@@ -111,6 +127,11 @@ p {
     padding: 0.5em 1em;
     font-family: Roboto, Inter, sans-serif;
 }
+
+.bullet li {
+    font-family: Roboto, Inter, sans-serif;
+}
+
 
 h2 {
     padding: 0.5em 1em;
@@ -140,6 +161,19 @@ img.center {
     margin-left: auto;
     margin-right: auto;
     width: 75%;
+  	max-width: 400px;
+}
+
+	img.monkey {
+		display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+        max-width: 275px;
+	}
+
+img.fair-use {
+	padding: 1em;
 }
 
 .right img	{ 
@@ -205,6 +239,82 @@ ul {
         margin-right: auto;
         width: 75%;
         max-width: 400px;
+    }
+	
+	img.monkey {
+		display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+        max-width: 275px;
+	}
+	
+		img.fair-use {
+		float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+		max-width: 400px;
+        min-width: 150px;
+    }
+	
+	    .right img {
+        width: 50%;
+		max-width: 250px;
+    }
+	
+	    .left img {
+        width: 50%;
+		max-width: 250px;
+    }
+
+}
+
+/*SECOND BREAK POINT === mobile */
+@media only screen and (max-width : 600px) {
+
+    .grid-container {
+        display: grid;
+        grid-template-areas:
+            "nav nav nav nav"
+            "header header header header"
+            "main main main main"
+            "aside1 aside1 aside1 aside1"
+            "aside2 aside2 aside2 aside2"
+            "aside3 aside3 aside3 aside3"
+            "footer footer footer footer";
+        row-gap: 2rem;
+        column-gap: 2rem;
+        background-color: #59959E;
+        padding: 2rem;
+        border-radius: 1rem;
+    }
+
+    img.float-right {
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+        min-width: 150px;
+    }
+
+    img.center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+        min-width: 150px;
+    }
+	
+	
+	    .right img {
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        min-width: 150px;
     }
 	
 	    .right img {
