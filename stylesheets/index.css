@@ -107,9 +107,18 @@ main {
     border-radius: 15px;
 }
 
+.fair1 {
+    grid-area: fair1;
+    background-color: #59959E;
+}
+
+.fair2 {
+    grid-area: fair2;
+    background-color: #59959E;
+}
+
 .bullet {
 	padding: 1rem;
-
 }
 
 footer {
@@ -128,10 +137,15 @@ p {
     font-family: Roboto, Inter, sans-serif;
 }
 
-.bullet li {
+figcaption {
+	color: #FFF6F3;
+    text-align: center;
     font-family: Roboto, Inter, sans-serif;
 }
 
+.bullet li {
+    font-family: Roboto, Inter, sans-serif;
+}
 
 h2 {
     padding: 0.5em 1em;
@@ -161,7 +175,7 @@ img.center {
     margin-left: auto;
     margin-right: auto;
     width: 75%;
-  	max-width: 400px;
+	max-width: 400px;
 }
 
 	img.monkey {
@@ -308,63 +322,6 @@ ul {
         min-width: 150px;
     }
 	
-	
-	    .right img {
-        float: none;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        min-width: 150px;
-    }
-	
-	    .right img {
-        width: 50%;
-		max-width: 250px;
-    }
-	
-	    .left img {
-        width: 50%;
-		max-width: 250px;
-    }
-
-}
-
-/*SECOND BREAK POINT === mobile */
-@media only screen and (max-width : 600px) {
-
-    .grid-container {
-        display: grid;
-        grid-template-areas:
-            "nav nav nav nav"
-            "header header header header"
-            "main main main main"
-            "aside1 aside1 aside1 aside1"
-            "aside2 aside2 aside2 aside2"
-            "aside3 aside3 aside3 aside3"
-            "footer footer footer footer";
-        row-gap: 2rem;
-        column-gap: 2rem;
-        background-color: #59959E;
-        padding: 2rem;
-        border-radius: 1rem;
-    }
-
-    img.float-right {
-        float: none;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 75%;
-        min-width: 150px;
-    }
-
-    img.center {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 75%;
-        min-width: 150px;
-    }
 	
 	    .right img {
         float: none;
