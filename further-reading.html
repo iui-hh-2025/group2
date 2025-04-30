@@ -6,22 +6,33 @@
     <title>Further Reading</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="stylesheets/index.css">
-    <!-- <meta name="author" content="Group 2">
+    <meta name="author" content="Group 2">
     <meta name="description" content="List of the references used in the research for this website and of additional resources for further reading.">
     <meta name="keywords" content="AI, artificial intelligence, fair use, law, legal">
-    -->
+    
 </head>
 <body>
     <div class="grid-container">
 
         <nav>
-            <ul>
-                <li><a href="index.html">AI & Copyright</a></li>
+            <ul class="sidebar">
+                <li onclick=hideSidebar()><a href="#">CLOSE MENU</li>
+				<li><a href="index.html">AI & Copyright</a></li>
                 <li><a href="copyright-law.html">Copyright Law</a></li>
                 <li><a href="fair-use.html">Fair Use</a></li>
                 <li><a href="ai-human-collaborations.html">AI & Human Collaborations</a></li>
                 <li><a href="opinions.html">Opinions</a></li>
                 <li style="border: solid 0.16rem #FFF6F3;"><a href="further-reading.html">Further Reading</a></li>
+            </ul>
+			
+			<ul>
+                <li class="hideOnMobile"><a href="index.html">AI & Copyright</a></li>
+                <li class="hideOnMobile"><a href="copyright-law.html">Copyright Law</a></li>
+                <li class="hideOnMobile"><a href="fair-use.html">Fair Use</a></li>
+                <li class="hideOnMobile"><a href="ai-human-collaborations.html">AI & Human Collaborations</a></li>
+                <li class="hideOnMobile"><a href="opinions.html">Opinions</a></li>
+                <li style="border: solid 0.16rem #FFF6F3;" class="hideOnMobile"><a href="further-reading.html">Further Reading</a></li>
+				<li class="menu-button" onclick=showSidebar()><a href="#">MENU</a></li>
             </ul>
         </nav>
 
@@ -607,5 +618,18 @@ Our goal is to investigate and examine the changing relationship between artific
 			<p>© IUI-HH 2025 Amanda Knol  |  Bridget O’Leary  |  Joonas Lintunen  |  Leo Koivunen  |  Noah George  |  Sarah Ankenbauer  |  Selma Essed  |  Stormie Franks</p>
         </footer>
     </div>
+	
+	<script>
+	function showSidebar(){
+		const sidebar = document.querySelector('.sidebar')
+		sidebar.style.display = 'flex'
+	}
+	
+	function hideSidebar(){
+		const sidebar = document.querySelector('.sidebar')
+		sidebar.style.display = 'none'
+	}
+</script>
+	
 </body>
 </html>

@@ -1,13 +1,13 @@
 .grid-container-fair-use {
     display: grid;
     grid-template-areas:
-        "nav nav nav nav"
-        "header header header header"
-        "main main main main"
-		"aside2 aside2 aside2 aside2"
-        "fair1 fair1 fair2 fair2"		
-        "aside3 aside3 aside3 aside3"
-        "footer footer footer footer";
+        "nav nav"
+        "header header"
+        "main main"
+		"aside4 aside2"
+        "fair1 fair2"		
+        "aside3 aside3"
+        "footer footer";
     row-gap: 2rem;
     column-gap: 2rem;
     background-color: #59959E;
@@ -21,13 +21,13 @@
     .grid-container {
         display: grid;
         grid-template-areas:
-            "nav nav nav nav"
-            "header header header header"
-            "main main main main"
-		    "aside2 aside2 aside2 aside2"
-            "fair1 fair1 fair2 fair2"			
-            "aside3 aside3 aside3 aside3"
-            "footer footer footer footer";
+            "nav nav"
+            "header header"
+            "main main"
+		    "aside4 aside2"
+            "fair1 fair2"			
+            "aside3 aside3"
+            "footer footer";
         row-gap: 2rem;
         column-gap: 2rem;
         background-color: #59959E;
@@ -41,14 +41,15 @@
     .grid-container {
         display: grid;
         grid-template-areas:
-            "nav nav nav nav"
-            "header header header header"
-            "main main main main"
-            "aside2 aside2 aside2 aside2"
-            "fair1 fair1 fair1 fair1"
-			"fair2 fair2 fair2 fair2"			
-            "aside3 aside3 aside3 aside3"
-            "footer footer footer footer";
+            "nav"
+            "header"
+            "main"
+            "aside4"
+            "aside2"			
+            "fair1"
+			"fair2"			
+            "aside3"
+            "footer";
         row-gap: 2rem;
         column-gap: 2rem;
         background-color: #59959E;
