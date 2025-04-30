@@ -73,7 +73,8 @@ header {
     grid-area: header;
     background-color: #003667;
     padding: 2rem;
-    border-radius: 15px;
+    border-radius: 0.6rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 header h1 {
@@ -87,6 +88,8 @@ main {
     grid-area: main;
     background-color: #FFF6F3;
     border-radius: 15px;
+    border-radius: 0.6rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .aside1 {
@@ -99,12 +102,16 @@ main {
     grid-area: aside2;
     background-color: #F89C76;
     border-radius: 15px;
+    border-radius: 0.6rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .aside3 {
     grid-area: aside3;
     background-color: #FFF6F3;
     border-radius: 15px;
+    border-radius: 0.6rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .fair1 {
@@ -125,6 +132,8 @@ footer {
     grid-area: footer;
     background-color: #003667;
     border-radius: 10px;
+	border-radius: 0.6rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 footer p {
