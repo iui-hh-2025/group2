@@ -113,6 +113,10 @@ main {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.main {
+	padding: 
+}
+
 .aside1 {
     grid-area: aside1;
     background-color: #59959E;
@@ -434,4 +438,38 @@ ul {
 
 }
 
+/*THIRD BREAK POINT === hide images on very small screens */
+@media only screen and (max-width : 300px) {
+	img {
+		display: none;
+	}
+	
+	img.float-right {
+        display: none;
+    }
 
+    img.center {
+		display: none;
+    }
+
+    img.monkey {
+        display: none;
+    }
+
+    img.fair-use {
+        display: none;
+    }
+
+    .right img {
+        display: none;
+    }
+
+    .left img {
+        display: none;
+    }
+	
+	header h1 {
+		font-size: 1rem;
+		font-weight: 700;
+	}
+}
