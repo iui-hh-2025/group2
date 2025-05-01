@@ -146,14 +146,16 @@ main {
 .fair1 {
     grid-area: fair1;
     background-color: #59959E;
-	width: 40vw;
+    padding-top: 1em;
 }
 
 .fair2 {
     grid-area: fair2;
     background-color: #59959E;
-	width: 40vw;
+    padding-top: 1em;
 }
+
+
 
 .bullet {
 	padding: 0.5rem 1rem;
@@ -175,7 +177,7 @@ footer p {
 p {
     padding: 0.5em 1em;
     font-family: Roboto, Inter, sans-serif;
-	line-height: 1.5;
+	line-height: 1.3;
 }
 
 figcaption {
@@ -203,9 +205,8 @@ h4 {
     font-family: Roboto, Inter, sans-serif;
 }
 
-img {
+main img {
     padding: 0 1.5em 1.5em 1.5em;
-    /* border-radius: 10%; I was trying to round the images, but it is not working the way I want it to -- the top curves differently from the bottom? If we want them curved and CSS is not helping, I can always adjust them in GIMP--AK*/
 }
 
 img.float-right {
@@ -268,6 +269,19 @@ ul {
     padding-left: 0;
 }
 
+/*NAV BREAK POINT */
+@media only screen and (max-width : 1000px) {
+	
+	.hideOnMobile {
+	display: none;
+	}
+
+	.menu-button{
+	display: block;
+	text-align: right;
+	}
+}
+
 /*FIRST BREAK POINT === tablet */
 @media only screen and (max-width : 900px) {
 
@@ -328,15 +342,6 @@ ul {
         width: 50%;
 		max-width: 250px;
     }
-	
-	.hideOnMobile {
-	display: none;
-}
-
-.menu-button{
-	display: block;
-	text-align: right;
-}
 
 }
 
@@ -398,9 +403,27 @@ ul {
         margin-right: auto;
         min-width: 150px;
     }
+	
+	.fair1 img {
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        min-width: 150px;
+    }
+	
+	.fair2 img {
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        min-width: 150px;
+    }
 
     footer {
         padding: 0;
     }
 
 }
+
+
