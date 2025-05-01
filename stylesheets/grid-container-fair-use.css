@@ -4,8 +4,8 @@
         "nav nav"
         "header header"
         "main main"
-		"aside4 aside2"
-        "fair1 fair2"		
+        "aside4 aside2"
+        "fair1 fair2"
         "aside3 aside3"
         "footer footer";
     row-gap: 2rem;
@@ -13,6 +13,8 @@
     background-color: #59959E;
     padding: 2rem;
     border-radius: 1rem;
+    overflow-x: hidden;
+    /* aside elements fucks it up */
 }
 
 
@@ -26,10 +28,10 @@
             "nav nav"
             "header header"
             "main main"
-		    "aside4 aside4"
+		        "aside4 aside4"
             "aside2 aside2"						
             "fair1 fair1"
-			"fair2 fair2"			
+			      "fair2 fair2"			
             "aside3 aside3"
             "footer footer";
         row-gap: 2rem;
@@ -52,7 +54,7 @@
             "aside4 aside4"
             "aside2 aside2"			
             "fair1 fair1"
-			"fair2 fair2"			
+			      "fair2 fair2"			
             "aside3 aside3"
             "footer footer";
         row-gap: 2rem;
@@ -61,9 +63,4 @@
         padding: 2rem;
         border-radius: 1rem;
     }
-	
-
-	
-
-
 }
