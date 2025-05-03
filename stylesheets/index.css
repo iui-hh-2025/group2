@@ -113,6 +113,8 @@ main {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+
+/* not sure what this is (or was) for? */
 .main {
 	padding: 
 }
@@ -120,7 +122,6 @@ main {
 .aside1 {
     grid-area: aside1;
     background-color: #59959E;
-    padding-top: 1rem;
 }
 
 .aside2 {
@@ -144,16 +145,34 @@ main {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.fair1 {
-    grid-area: fair1;
+.info {
+    grid-area: info;
     background-color: #59959E;
-    padding-top: 1rem;
+	display: flex;
+	flex-direction: row;
 }
 
-.fair2 {
-    grid-area: fair2;
+.images {
+    grid-area: images;
     background-color: #59959E;
-    padding-top: 1rem;
+}
+
+.info1 {
+    background-color: #FFF6F3;
+    border-radius: 0.6rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+	width: 50%;
+	margin: 0;
+}
+
+.info2 {
+    background-color: #F89C76;
+    border-radius: 0.6rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	width: 50%;
+	margin: 0;
+
 }
 
 
@@ -161,6 +180,13 @@ main {
 .bullet {
     padding: 0.5rem 1rem;
 }
+
+.image-se {
+	float: left;
+	width: 50%;
+}
+
+
 
 
 footer {
@@ -325,7 +351,7 @@ ul {
     padding-left: 0;
 }
 
-/*NAV BREAK POINT */
+/*NAV AND FAIR USE PAGE BREAK POINT */
 @media only screen and (max-width : 1000px) {
 	
 	.hideOnMobile {
@@ -335,6 +361,19 @@ ul {
 	.menu-button{
 	display: block;
 	text-align: right;
+	}
+	
+	.image-sf {
+	float: none;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	}
+
+	.image-se {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
 	}
 }
 
@@ -497,7 +536,7 @@ ul {
         min-width: 150px;
     }
 	
-	.fair1 img {
+/*	.fair1 img {
         float: none;
         display: block;
         margin-left: auto;
@@ -511,7 +550,33 @@ ul {
         margin-left: auto;
         margin-right: auto;
         min-width: 150px;
+    }  I think I got rid of these */
+	
+	. img {
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        min-width: 150px;
     }
+	
+	.image-se {
+		float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+		width: 90%;
+        min-width: 150px;
+		padding-bottom: 1.5rem;
+	}
+	
+	.image-sf {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+		width: 90%;
+        min-width: 150px;
+	}
 	
 	.banner {
 		padding: 1rem 0;
