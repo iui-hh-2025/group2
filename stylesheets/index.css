@@ -572,6 +572,13 @@ ul {
 
 }
 
+/*COLLABORATION PAGE BREAK POINT === shrink header size */
+@media only screen and (max-width : 400px) {
+	h1.collab {
+		font-size: 1.3rem;
+	}
+}
+
 /*THIRD BREAK POINT === hide images on very small screens */
 @media only screen and (max-width : 300px) {
 	img {
