@@ -27,39 +27,6 @@ body {
     border-radius: 1rem;
 }
 
-.grid-container-collab {
-    display: grid;
-    grid-template-areas:
-        "nav nav nav nav"
-        "header header header header"
-        "main main main main"
-        "aside1 aside1 aside1 aside2"
-        "aside3 aside3 aside3 aside3"
-        "footer footer footer footer";
-    row-gap: 2rem;
-    column-gap: 2rem;
-    background-color: #59959E;
-    padding: 2rem;
-    border-radius: 1rem;
-}
-
-.grid-container-fair-use {
-    display: grid;
-    grid-template-areas:
-        "nav nav nav nav"
-        "header header header header"
-        "main main main main"
-        "aside4 aside4 aside2 aside2"
-        "images images images images"
-		"aside3 aside3 aside3 aside3"
-        "footer footer footer footer";
-    row-gap: 2rem;
-    column-gap: 2rem;
-    background-color: #59959E;
-    padding: 2rem;
-    border-radius: 1rem;
-}
-
 nav {
     grid-area: nav;
     background-color: #003667;
@@ -425,41 +392,6 @@ ul {
         border-radius: 1rem;
     }
 	
-	.grid-container-collab {
-        display: grid;
-        grid-template-areas:
-            "nav nav nav nav"
-            "header header header header"
-            "main main main main"
-            "aside1 aside1 aside1 aside1"
-            "aside2 aside2 aside2 aside2"
-            "aside3 aside3 aside3 aside3"
-            "footer footer footer footer";
-        row-gap: 2rem;
-        column-gap: 2rem;
-        background-color: #59959E;
-        padding: 2rem;
-        border-radius: 1rem;
-    }
-	
-	.grid-container-fair-use {
-        display: grid;
-        grid-template-areas:
-            "nav nav nav nav"
-			"header header header header"
-			"main main main main"
-			"aside4 aside4 aside4 aside4"
-			"aside2 aside2 aside2 aside2"
-			"images images images images"
-			"aside3 aside3 aside3 aside3"
-			"footer footer footer footer";
-        row-gap: 2rem;
-        column-gap: 2rem;
-        background-color: #59959E;
-        padding: 2rem;
-        border-radius: 1rem;
-    }
-	
 	.float-right {
 	float: none;
 	display: block;
@@ -554,12 +486,16 @@ ul {
         background-color: #59959E;
         padding: 2rem;
         border-radius: 1rem;
-    }
+    }	
 
     .sidebar {
         width: 100%;
         padding: 0;
     }
+	
+	.quotes p {
+	padding: 0.5rem 2.5rem;
+}
 	
 	.float-right {
 		padding: 0;
@@ -596,42 +532,9 @@ ul {
         display: block;
         margin-left: auto;
         margin-right: auto;
+		width: 90%;
         min-width: 150px;
     }
-	
-	main.references img {
-		float: none;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-		max-width: 250px;
-        min-width: 150px;
-	}
-	
-/*	.fair1 img {
-        float: none;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        min-width: 150px;
-    }
-	
-	.fair2 img {
-        float: none;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        min-width: 150px;
-    }  I think I got rid of these */
-
-/* Due to the space before img, not sure this is actually doinganything, but I am afraid to delete it yet --AK 	
-	. img {
-        float: none;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        min-width: 150px;
-    }  */
 	
 	.image-se {
 		float: none;
@@ -695,11 +598,6 @@ ul {
 	.banner {
 		display: none;
 	}
-
-	
-	/*figcaption {
-		display: none;
-	}  Not sure if we have these still or if they are replaced with paragraphs */
 	
 /* figure frames */
 	.float-r {
