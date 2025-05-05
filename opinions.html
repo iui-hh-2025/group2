@@ -17,7 +17,15 @@
 
         <nav>
             <ul class="sidebar">
-                <li onclick=hideSidebar()><a href="#">CLOSE MENU</a></li>
+                <li class="menu-button">
+                    <button id="close-x" type="button" style="background: transparent; color: white; border: 0; text-align: right;
+					aria-expanded="true"
+					aria-label="Close Menu"
+                        onclick="hideSidebar()">
+                        <span class="material-symbols-outlined">
+							close
+						</span>
+                    </button>
 				<li><a href="index.html">AI & Copyright</a></li>
                 <li><a href="copyright-law.html">Copyright Law</a></li>
                 <li><a href="fair-use.html">Fair Use</a></li>
